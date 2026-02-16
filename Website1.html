@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<link href="Website1-Style.css" rel="stylesheet">
+
+<header class="navbar">
+  <h1>MoMA: The Museum of Modern Art, New York</h1>
+  <div class="banner">
+  </div>
+</header>
+
+<body>
+  <main>
+    <div class="banner">
+    <img src="moma_image.jpg">
+    </div>
+
+    <div class="text-container">
+    <p>The institution was conceived in 1929 by <a href="https://en.wikipedia.org/wiki/Abby_Aldrich_Rockefeller">Abby Aldrich Rockefeller</a>, Lillie P. Bliss, and Mary Quinn Sullivan. From the 1930s through the 1950s, MoMA became a host to several landmark exhibitions, including Barr's influential <a href= "https://www.moma.org/calendar/exhibitions/2748">Cubism and Abstract Art</a> in 1936. Nelson Rockefeller became the museum's president in 1939, playing a key role in its expansion and publicity. David Rockefeller joined the board in 1948 and continued the family's close association with the museum until his death in 2017. In 1953, Philip Johnson redesigned the garden, which subsequently became the Abby Aldrich Rockefeller Sculpture Garden.</p>
+    <p>The museum has been instrumental in shaping the history of modern art, particularly modern art from Europe. Some of the most notable works include: The Starry Night, The Persistence of Memory, and Les Demoiselles d'Avignon. In recent decades, MoMA has expanded its collection and programming to include works by traditionally underrepresented groups.</p>
+    <p>In 2023, MoMA was visited by over 2.8 million people, making it the 15th most-visited art museum in the world and the 6th most-visited museum in the United States. To plan your visit, please see our <a href=#section>gallery map.</a></p>
+    </div>
+
+     <div class="collection">
+        Our Artworks
+    </div>
+
+    <article>
+    <div class="container">
+        <figure class='img'>
+        <img src="StarryNight.jpg" alt="The Starry Night">
+        <h3>The Starry Night<br>Vincent Van Gogh<br>Saint Rémy, June 1889</h3>
+
+        <button onclick="toggleText('StarryNight')">Show More</button>
+        <p id="StarryNight" class="toggle_text"> Inspired by the view from his window at the Saint-Paul-de-Mausole asylum in Saint-Rémy, in southern France, where the artist spent twelve months in 1889–90 seeking reprieve from his mental illnesses.</p>
+        </figure>
+    
+        <figure class="img">
+        <img src="PersistenceofMemory.webp" alt="Persistence of Memory">
+        <h3>The Persistence of Memory<br>Salavador Dalí<br>1931</h3>
+        </figure>
+    </div>
+    </article>
+
+    <article>
+    <div class="container2">
+        <figure class='img'>
+        <img src="Picasso.jpg" alt="Les Demoiselles d'Avignon">
+        <h3 id="section">Les Demoiselles d'Avignon<br>Pablo Picasso<br>Paris, June-July 1907</h3>  
+        <button onclick="toggleText('Avignon')">Show More</button>
+        <p id="Avignon" class="toggle_text"> Out of this intellectual-emotional tumult came a painting in which form and content were equalized. Its title refers to Avignon Street in Barcelona, home to the sex workers the artist frequented.</p>
+        </figure>
+    
+        <figure class="img">
+        <img src="kahlo.jpg" alt="Self-Portrait with Cropped Hair">
+        <h3>Self-Portrait with Cropped Hair<br>Frida Kahlo<br>1940</h3>    
+        <button onclick="toggleText('Cropped')">Show More</button>
+        <p id="Cropped" class="toggle_text"> In this self-portrait, Kahlo has cast off the feminine attributes with which she often depicted herself—such as traditional embroidered Tehuana dresses or flowers in her hair—and instead sports a loose-fitting man’s suit and short-clipped haircut.</p>
+        </figure>
+    </div>
+    </article>
+
+    <div class="navbar2">
+        <div class="collection" id="section">
+            Gallery Map
+        </div>
+            <ul class="text-container-2">
+            <li>Please Do Not:</li>
+            <li>Touch the Art</li>
+            <li>Use Flash Photography</li>
+            <li>Bring Food or Drink into the Gallery</li>
+            <li>Run in the Galleries</li>
+            </ul>
+    
+        <div class="tables">
+        <table>
+            <tr><td>101</td><td>104</td><td>105</td></tr>
+            <tr><td>102</td><td>103</td><td>106</td></tr>
+        </table>
+
+        <table>
+            <tr><td>201</td><td>206</td><td>205</td></tr>
+            <tr><td>202</td><td>203</td><td>204</td></tr>
+        </table>
+        </div>
+    </div>
+    </main>
+<script src="Website1.js"></script>
+</body>
+
+<footer>
+    <div class="collection">
+        Thank you for Visiting! 
+    </div>
+
+  <div class="feedback">Want to Provide Feedback on Your Recent Visit?</div>
+  <form class="form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+    <label for="Feedback">Feedback</label>
+    <input type="Feedback" id="Feedback" name="Feedback">
+    <button type="submit">Submit</button>
+  </form>
+</footer>
+
+
+</html>
+
